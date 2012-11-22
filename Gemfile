@@ -71,6 +71,7 @@ gem 'ri_cal'
 gem 'yajl-ruby', :require => "yajl"
 
 group :development, :test do
+  gem 'rvm-capistrano'
   gem 'rspec-rails', '~> 2.6'
   gem 'webmock', :require => false
   unless ENV["CI"]
